@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
+    android:background="#563C81"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/notes_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="16sp"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/document"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="title here" />
+
+    <TextView
+        android:id="@+id/notes_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="#BEB4CF"
+        app:layout_constraintEnd_toEndOf="@+id/notes_title"
+        app:layout_constraintStart_toStartOf="@+id/notes_title"
+        app:layout_constraintTop_toBottomOf="@+id/notes_title"
+        tools:text="notes will be visible here" />
+
+    <ImageView
+        android:id="@+id/document"
+        android:layout_width="30sp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="document"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/notes_body"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/notes_title"
+        app:srcCompat="@drawable/document" />
+
+
+</android.support.constraint.ConstraintLayout>

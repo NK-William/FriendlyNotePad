@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Friendly Notes</string>
+    <string name="add_new_note">Add Notes</string>
+    <string name="action_favourite">Favourite</string>
+    <string name="dialog_message">Are you sure you want to delete this memo?</string>
+    <string name="dialog_delete_text">Delete</string>
+    <string name="dialog_cancel_text">Cancel</string>
+    <string name="dialogBackButtonOnAddNewMessage">Save your notes or discard the?</string>
+    <string name="dialogBackButtonOnAddNewSaveText">Save</string>
+    <string name="dialogBackButtonOnAddNewCancelText">Cancel</string>
+    <string name="dialogBackButtonOnAddNewDiscardText">Discard</string>
+    <string name="dialogBackButtonOnUpdateMessage">Save your changes or discard them?</string>
+    <string name="dialogBackButtonOnUpdateSaveText">Save</string>
+    <string name="dialogBackButtonOnUpdateDiscardText">Discard</string>
+    <string name="dialogBackButtonOnUpdateCancelText">Cancel</string>
+</resources>
